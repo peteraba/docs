@@ -81,7 +81,7 @@ public function up() : void
 
 Migrations are discovered, run, and rolled back by an instance of `Opulence\Databases\Migrations\IMigrator` (`Migrator` comes built-in).  Migration classes are discovered by `FileMigrationFinder`, which recursively finds all classes that implement `IMigration` in a particular path or paths.  Those migrations are ordered by their creation dates.
 
-If you're using the <a href="https://github.com/opulencephp/Project" target="_blank">skeleton project</a>, you can configure the path to search for migration classes in _config/paths.php_ (defaults to _src/Application/Infrastructure/Databases/Migrations_).
+If you're using the <a href="https://github.com/opulencephp/Project" target="_blank">skeleton project</a>, you can configure the path to search for migration classes in _config/paths.php_ (defaults to _src/Infrastructure/Databases/Migrations_).
 
 <h2 id="running-migrations">Running Migrations</h2>
 
